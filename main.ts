@@ -930,7 +930,7 @@ let cloud: Sprite = null
 let bird: Sprite = null
 let gravity = 0
 let bunny: Sprite = null
-scene.setBackgroundColor(13)
+scene.setBackgroundColor(12)
 bunny = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
