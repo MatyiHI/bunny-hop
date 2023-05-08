@@ -931,24 +931,7 @@ let bird: Sprite = null
 let gravity = 0
 let bunny: Sprite = null
 scene.setBackgroundColor(12)
-bunny = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . f . . f . . . . . . . . 
-    . . . . f f f f . . . . . . . . 
-    . . . . f 7 f 7 . . . . . . . . 
-    . . . . f f f f . . . . . . . . 
-    . . . f f f f f f . . . . . . . 
-    . . f f f f f f f . f . . . . . 
-    . . f f f f f f f . f . . . . . 
-    . . . f f f f f f f f . . . . . 
-    . . . f f f f f f . . . . . . . 
-    . . . . f . . f . . . . . . . . 
-    `, SpriteKind.Player)
+bunny = sprites.create(assets.image`Black_Cat`, SpriteKind.Player)
 gravity = 400
 bunny.ay = gravity
 bunny.x = 20
