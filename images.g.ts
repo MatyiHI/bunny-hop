@@ -14,7 +14,7 @@ namespace myImages {
 . . . . f . . f . . . . . . . . 
 . . . . f f f f . . . . . . . . 
 . . . . f 7 f 7 . . . . . . . . 
-. . . . f f f f . . . . . . . . 
+. . . . f f 3 f . . . . . . . . 
 . . . f f f f f f . . . . . . . 
 . . f f f f f f f . f . . . . . 
 . . f f f f f f f . f . . . . . 
